@@ -3,7 +3,8 @@ import pickle
 from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 import pandas as pd
 
-app = Flask(__name__)
+application = Flask(__name__)
+app =application
 
 # Load the trained model
 with open('XGBClassifier_final.pkl', 'rb') as file:
