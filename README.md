@@ -43,9 +43,9 @@ This would create a serialized version of our model into a file model.pkl
 ```
 python app.py
 ```
-By default, flask will run on port 5000.
+By default, flask will run on port 8080.
 
-3. Navigate to URL http://localhost:5000
+3. Navigate to URL http://localhost:8080
 
 You should be able to view the homepage as shown in report below :
 (https://docs.google.com/document/d/1z5hfzp3Y-IAYC1nVokkBiPrSBikiXI4Dt-IjChoPQsU/edit#)
